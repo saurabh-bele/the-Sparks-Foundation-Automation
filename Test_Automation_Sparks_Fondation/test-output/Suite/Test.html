@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jan 18 15:36:39 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>58 seconds (58338 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.verifytitle()'><b>verifytitle</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.Testobjectives()'><b>Testobjectives</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.Testtalks()'><b>Testtalks</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.Testindiviualsessions()'><b>Testindiviualsessions</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.CommunityTest()'><b>CommunityTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.Testsetup()'><b>Testsetup</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.clickonstudentsosprogram()'><b>clickonstudentsosprogram</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.LaunchBrowser()'><b>LaunchBrowser</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>10</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.Testtarget()'><b>Testtarget</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.corporateprogramsTest.verifytitle()'><b>verifytitle</b><br>Test class: TheSparksFoundation.corporateprogramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.corporateprogramsTest@1817d444</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.MentorshipTest()'><b>MentorshipTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.clickonstudentschorshipprogram()'><b>clickonstudentschorshipprogram</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.corporateprogramsTest.Testcorporatevisitsandexternships()'><b>Testcorporatevisitsandexternships</b><br>Test class: TheSparksFoundation.corporateprogramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.corporateprogramsTest@1817d444</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.ScholarshipTest()'><b>ScholarshipTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.corporateprogramsTest.testcharitableteambuildingprograms()'><b>testcharitableteambuildingprograms</b><br>Test class: TheSparksFoundation.corporateprogramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.corporateprogramsTest@1817d444</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.SupportTest()'><b>SupportTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.TestProgressCheck()'><b>TestProgressCheck</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.clickonstudentmentorshipprogram()'><b>clickonstudentmentorshipprogram</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.Testobjectives()'><b>Testobjectives</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.Testtarget()'><b>Testtarget</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.TestSupport()'><b>TestSupport</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.Testsetup()'><b>Testsetup</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.Testwhatissos()'><b>Testwhatissos</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.EventTest()'><b>EventTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.quitBrowser()'><b>quitBrowser</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.clickOnPrograms()'><b>clickOnPrograms</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>8</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.studentsosprogramTest.clickOnPrograms()'><b>clickOnPrograms</b><br>Test class: TheSparksFoundation.studentsosprogramTest</td>
+<td></td>
+<td>8</td>
+<td>TheSparksFoundation.studentsosprogramTest@50a638b5</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.clickonprograms()'><b>clickonprograms</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>8</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.IntershipTest()'><b>IntershipTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.corporateprogramsTest.clickoncorporateprogram()'><b>clickoncorporateprogram</b><br>Test class: TheSparksFoundation.corporateprogramsTest</td>
+<td></td>
+<td>1</td>
+<td>TheSparksFoundation.corporateprogramsTest@1817d444</td></tr>
+<tr>
+<td title='TheSparksFoundation.HomePageTest.LogoTest()'><b>LogoTest</b><br>Test class: TheSparksFoundation.HomePageTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.HomePageTest@1700915</td></tr>
+<tr>
+<td title='TheSparksFoundation.corporateprogramsTest.clickOnPrograms()'><b>clickOnPrograms</b><br>Test class: TheSparksFoundation.corporateprogramsTest</td>
+<td></td>
+<td>8</td>
+<td>TheSparksFoundation.corporateprogramsTest@1817d444</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.Testworkshops()'><b>Testworkshops</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.Testsupport()'><b>Testsupport</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.ProgramsTest.verifytitle()'><b>verifytitle</b><br>Test class: TheSparksFoundation.ProgramsTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.ProgramsTest@3f197a46</td></tr>
+<tr>
+<td title='TheSparksFoundation.StudentmentorshipprogramTest.verifytitle()'><b>verifytitle</b><br>Test class: TheSparksFoundation.StudentmentorshipprogramTest</td>
+<td></td>
+<td>0</td>
+<td>TheSparksFoundation.StudentmentorshipprogramTest@636be97c</td></tr>
+</table><p>
+</body>
+</html>
